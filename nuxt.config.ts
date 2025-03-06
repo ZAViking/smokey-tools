@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
     '@nuxt/icon',
-    //'@nuxtjs/supabase',
+    '@nuxtjs/supabase',
   ],
   css: ['@/assets/css/main.css', '@/assets/css/tailwind.css'],
 
