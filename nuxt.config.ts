@@ -13,9 +13,9 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' }
   },
 
-  // supabase: {
-  //   url: process.env.SUPABASE_URL,
-  //   key: process.env.SUPABASE_KEY,
+   supabase: {
+     url: process.env.SUPABASE_URL,
+     key: process.env.SUPABASE_KEY,
   //   redirect: false,
     // redirectOptions: {
     //   login: '/',
@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     //   sameSite: 'lax',
     //   secure: true
     // },
-  // },
+   },
 
   // Enable build transpilation for specific modules if necessary
   build: {
