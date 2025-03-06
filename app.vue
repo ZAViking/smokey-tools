@@ -7,6 +7,6 @@
 </template>
 
 <script setup>
-  import "@/assets/CSS/tailwind.css";
+  // import "@/assets/CSS/tailwind.css";
   const user = useSupabaseUser()
 </script>
